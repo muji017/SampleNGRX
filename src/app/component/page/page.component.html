@@ -1,0 +1,12 @@
+<!-- <h1>{{(counter$ | async )?.myName}}</h1> -->
+
+<div style="text-align: center; margin-top: 20px;">
+<mat-form-field>
+    <input matInput [(ngModel)]="newName" placeholder="Write here">
+</mat-form-field>
+<br>
+<button mat-raised-button (click)="changeName()">Add something</button>
+<h2>Counter : <b>{{counterValue}}</b></h2>
+    <app-button></app-button>
+    <app-custom></app-custom>
+  </div>
